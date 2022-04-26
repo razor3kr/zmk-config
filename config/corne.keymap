@@ -52,30 +52,30 @@
         navi_layer {
 // ---------------------------------------------------------------------------------------
 // |     |      |      |       |      |      | # | UNDO | CUT  | COPY  | PASTE |     |     |
-// |     | LGUI | LALT | LCTL  | LSFT | TAB  | # | LFT  | DWN  |  UP   |  RGT  | ENT |     |
+// |     | LGUI | LALT | LCTL  | LSFT |      | # | LFT  | DWN  |  UP   |  RGT  | ENT |     |
 // |     |      | RALT |       |      |      | # | HOME | PGDN | PGUP  |  END  |     |     |
-//                     | BTCLR | HELD | LSFT | # | SPC  | BKSP |  DEL  |
+//                     |       |      |      | # | SPC  | BKSP |  DEL  |
 
             bindings = <
 &trans     &trans    &trans     &trans      &trans     &trans        &kp UNDO  &kp CUT   &kp COPY  &kp PSTE  &trans    &trans    
 &trans     &kp LGUI  &kp LALT   &kp LCTL    &kp LSFT   &kp TAB       &kp LARW  &kp DARW  &kp UARW  &kp RARW  &kp RET   &trans
-&kp LSFT   &trans    &trans     &trans      &trans     &trans        &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
-                                &bt BT_CLR  &trans     &kp LSFT      &kp SPC   &kp BKSP  &kp DEL
+&trans     &trans    &trans     &trans      &trans     &trans        &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
+                                &trans      &trans     &trans        &kp RET   &kp BKSP  &kp DEL
             >;  
         };
 
         media_layer {
 // -------------------------------------------------------------------------------------
-// |     |      |      |      |      |      | # |      |      |      |      |     |     |
-// |     | LGUI | LALT | LCTL | LSFT | TAB  | # | PREV | VOLD | VOLU | NEXT |     |     |
-// |     |      | RALT |      |      |      | # |      |      |      |      |     |     |
-//                     | HELD |      | LSFT | # | STOP | PLAY | MUTE |
+// |  bt clr  | bt 0 | bt 1 | bt 2 | bt 3 | bt 4 | # |      |      |      |      |     |     |
+// |          | LGUI | LALT | LCTL | LSFT |      | # | PREV | VOLD | VOLU | NEXT |     |     |
+// |          |      | RALT |      |      |      | # |      |      |      |      |     |     |
+//                          |      |      |  SPC | # | STOP | PLAY | MUTE |
 
             bindings = <
-&trans     &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans    
-&trans     &kp LGUI  &kp LALT   &kp LCTL   &kp LSFT   &kp TAB       &cp M_PREV &cp M_VOLD &cp M_VOLU &cp M_NEXT &trans    &trans
-&kp LSFT   &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans
-                                &trans     &trans     &kp LSFT      &cp M_STOP &cp M_PLAY &cp M_MUTE
+&bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &trans     &trans     &trans     &trans     &trans    &trans    
+&trans     &kp LGUI      &kp LALT     &kp LCTL      &kp LSFT      &trans       &cp M_PREV &cp M_VOLD &cp M_VOLU &cp M_NEXT &trans    &trans
+&trans     &trans        &trans       &trans        &trans        &trans       &trans     &trans     &trans     &trans     &trans    &trans
+                         &trans       &trans        &kp SPC       &cp M_STOP &cp M_PLAY &cp M_MUTE
             >;
         };
 
