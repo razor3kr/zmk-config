@@ -42,7 +42,7 @@
 //               | LT MEDIA ESC | LT NAVI TAB |  SPC  | # |  RET  | LT NUM BKSP | LT FUNC DEL |
 
             bindings = <
-&kp TILDE   &kp Q        &kp W        &kp F        &kp P        &kp B   &kp J   &kp L        &kp U        &kp Y        &kp SCLN     &kp 
+&kp TILDE   &kp Q        &kp W        &kp F        &kp P        &kp B   &kp J   &kp L        &kp U        &kp Y        &kp SCLN     &kp BKSP
 &kp ESC     &hm LGUI A   &hm LALT R   &hm LCTL S   &hm LSFT T   &kp G   &kp M   &hm LSFT N   &hm LCTL E   &hm LALT I   &hm LGUI O   &kp APOS
 &kp LSFT    &kp Z        &hm RALT X   &hm RCTL C   &kp D        &kp V   &kp K   &kp H        &kp CMMA     &kp DOT      &kp FSLH     &kp RET
                                &lt MEDIA ESC   &lt NAVI TAB     &kp SPC &kp RET   &lt NUM BKSP   &lt FUNC DEL
