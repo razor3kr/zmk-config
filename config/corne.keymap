@@ -52,15 +52,15 @@
 
         navi_layer {
 // ---------------------------------------------------------------------------------------
-// |        |         |        |        |        |       | # |       |  UNDO  |  CUT  |  COPY  |  PASTE  |       |       |
-// |        |   LGUI  |  LALT  |  LCTL  |  LSFT  |       | # |       |  LFT   |  DWN  |   UP   |   RGT   |  ENT  |       |
-// |        |         |  RALT  |  RCTL  |        |       | # |  INS  |  HOME  |  PGDN |  PGUP  |   END   |       |       |
+// |        |         |        |        |        |       | # |       |  UNDO  |  CUT  |  COPY  |  PASTE  |       |  
+// |        |   LGUI  |  LALT  |  LCTL  |  LSFT  |       | # |       |  LFT   |  DWN  |   UP   |   RGT   |  ENT  | 
+// |        |         |  RALT  |  RCTL  |        |       | # |  INS  |  HOME  |  PGDN |  PGUP  |   END   |       |  
 //                             |        |        |       | # |       |        |       |
 
             bindings = <
-&trans   &trans     &trans     &trans     &trans     &trans   &trans    &kp UNDO   &kp CUT    &kp COPY   &kp PSTE   &trans    &trans    
-&trans   &kp LGUI   &kp LALT   &kp LCTL   &kp LSFT   &trans   &trans    &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp RET   &trans
-&trans   &trans     &kp RALT   &kp RCTL   &trans     &trans   &kp INS   &kp HOME   &kp PGDN   &kp PGUP   &kp END    &trans    &trans
+&trans   &trans     &trans     &trans     &trans     &trans   &trans    &kp UNDO   &kp CUT    &kp COPY   &kp PSTE   &trans   
+&trans   &kp LGUI   &kp LALT   &kp LCTL   &kp LSFT   &trans   &trans    &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp RET
+&trans   &trans     &kp RALT   &kp RCTL   &trans     &trans   &kp INS   &kp HOME   &kp PGDN   &kp PGUP   &kp END    &trans
                                &trans     &trans     &trans   &trans    &trans     &trans
             >;  
         };
