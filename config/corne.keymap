@@ -74,9 +74,9 @@
 
             bindings = <
 &bt BT_CLR   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &trans       &trans       &trans       &trans       &trans       &trans    
-&trans       &kp LGUI       &kp LALT       &kp LCTL       &kp LSFT       &trans         &trans       &cp M_PREV   &cp M_VOLD   &cp M_VOLU   &cp M_NEXT   &trans    
+&trans       &kp LGUI       &kp LALT       &kp LCTL       &kp LSFT       &trans         &trans       &kp M_PREV   &kp M_VOLD   &kp M_VOLU   &kp M_NEXT   &trans    
 &trans       &trans         &kp RALT       &kp RCTL       &trans         &trans         &trans       &trans       &trans       &trans       &trans       &trans
-                            &trans         &trans         &trans         &cp M_STOP     &cp M_PLAY   &cp M_MUTE
+                            &trans         &trans         &trans         &kp M_STOP     &kp M_PLAY   &kp M_MUTE
             >;
         };
 
