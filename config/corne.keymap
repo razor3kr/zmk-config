@@ -8,12 +8,12 @@
 #define COLEMAK 1
 #define QWERTY 0
 #define GAMING_QWERTY 2
-#define LAYERS 3
-#define NAV 4
-#define MEDIA 5
-#define NUM 6
-#define SYM 7
-#define FN 8
+#define LAYERS 8
+#define NAV 3
+#define MEDIA 4
+#define NUM 5
+#define SYM 6
+#define FN 7
 
 // Behavior configuration
 &mt {
