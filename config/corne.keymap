@@ -43,10 +43,10 @@
                 //                            | ESC/MEDIA |  TAB/NAV  |   SPACE   | # | ENTER/SYM | BSPC/NUM | DEL/FN  |
 
                 bindings = <
-                    &mo LAYERS  &kp Q       &kp W       &kp E          &kp R        &kp T        &kp Y          &kp U         &kp I        &kp O         &kp P          &trans
-                    &trans      &mt LGUI A  &mt LALT S  &mt LCTRL D    &mt LSHFT F  &kp G        &kp H          &mt LSHFT J   &mt LCTRL K  &mt LALT L    &mt LGUI SEMI  &trans
-                    &trans      &kp Z       &mt RALT X  &kp C          &kp V        &kp B        &kp N          &kp M         &kp COMMA    &mt RALT DOT  &kp FSLH       &trans
-                                                        &lt MEDIA ESC  &lt NAV TAB  &kp SPACE    &lt SYM ENTER  &lt NUM BSPC  &lt FN DEL
+                    &mo LAYERS    &kp Q         &kp W         &kp E            &kp R          &kp T            &kp Y            &kp U           &kp I          &kp O           &kp P            &trans
+                    &trans        &mt LGUI A    &mt LALT S    &mt LCTRL D      &mt LSHFT F    &kp G            &kp H            &mt LSHFT J     &mt LCTRL K    &mt LALT L      &mt LGUI SEMI    &trans
+                    &trans        &kp Z         &mt RALT X    &kp C            &kp V          &kp B            &kp N            &kp M           &kp COMMA      &mt RALT DOT    &kp FSLH         &trans
+                                                              &lt MEDIA ESC    &lt NAV TAB    &kp SPACE        &lt SYM ENTER    &lt NUM BSPC    &lt FN DEL
             >;
         };
 		colemak {
@@ -57,10 +57,10 @@
                 //                            | ESC/MEDIA |  TAB/NAV  |   SPACE   | # | ENTER/SYM | BSPC/NUM | DEL/FN  |
 
                 bindings = <
-                    &mo LAYERS  &kp Q       &kp W       &kp F          &kp P        &kp B        &kp J          &kp L         &kp U        &kp Y         &kp SQT     &trans
-                    &trans      &mt LGUI A  &mt LALT R  &mt LCTRL S    &mt LSHFT T  &kp G        &kp M          &mt LSHFT N   &mt LCTRL E  &mt LALT I    &mt LGUI O  &trans
-                    &trans      &kp Z       &mt RALT X  &kp C          &kp D        &kp V        &kp K          &kp H         &kp COMMA    &mt RALT DOT  &kp FSLH    &trans
-                                                        &lt MEDIA ESC  &lt NAV TAB  &kp SPACE    &lt SYM ENTER  &lt NUM BSPC  &lt FN DEL
+                    &mo LAYERS     &kp Q         &kp W         &kp F            &kp P          &kp B            &kp J            &kp L           &kp U          &kp Y           &kp SQT       &trans
+                    &trans         &mt LGUI A    &mt LALT R    &mt LCTRL S      &mt LSHFT T    &kp G            &kp M            &mt LSHFT N     &mt LCTRL E    &mt LALT I      &mt LGUI O    &trans
+                    &trans         &kp Z         &mt RALT X    &kp C            &kp D          &kp V            &kp K            &kp H           &kp COMMA      &mt RALT DOT    &kp FSLH      &trans
+                                                               &lt MEDIA ESC    &lt NAV TAB    &kp SPACE        &lt SYM ENTER    &lt NUM BSPC    &lt FN DEL
             >;
         };
         gaming_qwerty {
@@ -71,10 +71,10 @@
                 //                          |  ESC  | SPACE |  TAB  | # | ENTER | BSPC  |  DEL  |
 
                 bindings = <
-                    &mo LAYERS  &kp Q  &kp W  &kp E    &kp R    &kp T        &kp Y      &kp U     &kp I      &kp O    &kp P     &trans
-                    &kp LCTRL   &kp A  &kp S  &kp D    &kp F    &kp G        &kp H      &kp J     &kp K      &kp L    &kp SEMI  &trans
-                    &kp LSHIFT  &kp Z  &kp X  &kp C    &kp V    &kp B        &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &trans
-                                              &kp ESC  &kp TAB  &kp SPACE    &kp ENTER  &kp BSPC  &kp DEL
+                    &mo LAYERS    &kp Q    &kp W    &kp E      &kp R      &kp T            &kp Y        &kp U       &kp I        &kp O      &kp P       &trans
+                    &kp LCTRL     &kp A    &kp S    &kp D      &kp F      &kp G            &kp H        &kp J       &kp K        &kp L      &kp SEMI    &trans
+                    &kp LSHIFT    &kp Z    &kp X    &kp C      &kp V      &kp B            &kp N        &kp M       &kp COMMA    &kp DOT    &kp FSLH    &trans
+                                                    &kp ESC    &kp TAB    &kp SPACE        &kp ENTER    &kp BSPC    &kp DEL
             >;
         };
 		navigation {
@@ -85,10 +85,10 @@
                 //                     |       | HELD  |     | # | ENTER | BSPC | DEL  |
 
                 bindings = <
-                    &trans  &trans    &trans    &trans     &trans     &trans    &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &kp GRAVE
-                    &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LEFT    &kp DOWN   &kp UP      &kp RIGHT    &kb LBRC    &kp RBRC
-                    &trans  &trans    &kp RALT  &trans     &trans     &trans    &kp INS     &kp PG_DN  &kp PG_UP   &kp HOME     &kp END     &kp TILDA
-                                                &trans     &trans     &trans    &kp ENTER   &kp BSPC   &kp DEL
+                    &trans    &trans      &trans      &trans       &trans       &trans        &kp K_UNDO    &kp K_CUT    &kp K_COPY    &kp K_PASTE    &kp K_REDO    &kp GRAVE
+                    &trans    &kp LGUI    &kp LALT    &kp LCTRL    &kp LSHFT    &trans        &kp LEFT      &kp DOWN     &kp UP        &kp RIGHT      &kb LBRC      &kp RBRC
+                    &trans    &trans      &kp RALT    &trans       &trans       &trans        &kp INS       &kp PG_DN    &kp PG_UP     &kp HOME       &kp END       &kp TILDA
+                                                      &trans       &trans       &trans        &kp ENTER     &kp BSPC     &kp DEL
             >;
         };
         media {
@@ -98,11 +98,11 @@
                 // | EP_OFF   | EP_ON   | RALT |        |        |        | # |      |       |       |      |      | BT_3 |
                 //                             |  HELD  |        |        | # | STOP | PLAY  | MUTE  |     
 
-            bindings = <
-                &bootloader        &out OUT_BLE      &bt BT_SEL 0  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR    &trans      &kp C_BRI_DN  &kp C_BRI_UP  &trans      &trans  &bt BT_SEL 1  
-                &sys_reset         &kp LGUI          &kp LALT      &kp LCTRL   &kp LSHFT   &trans        &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans  &bt BT_SEL 2  
-                &ext_power EP_OFF  &ext_power EP_ON  &kp RALT      &trans      &trans      &trans        &trans      &trans        &trans        &trans      &trans  &bt BT_SEL 3  
-                                                                   &trans      &trans      &trans        &kp C_STOP  &kp C_PLAY    &kp C_MUTE
+                bindings = <
+                    &bootloader          &out OUT_BLE        &bt BT_SEL 0    &bt BT_PRV    &bt BT_NXT    &bt BT_CLR        &trans        &kp C_BRI_DN    &kp C_BRI_UP    &trans        &trans    &bt BT_SEL 1  
+                    &sys_reset           &kp LGUI            &kp LALT        &kp LCTRL     &kp LSHFT     &trans            &kp C_PREV    &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT    &trans    &bt BT_SEL 2  
+                    &ext_power EP_OFF    &ext_power EP_ON    &kp RALT        &trans        &trans        &trans            &trans        &trans          &trans          &trans        &trans    &bt BT_SEL 3  
+                                                                             &trans        &trans        &trans            &kp C_STOP    &kp C_PLAY      &kp C_MUTE
             >;
         };
         numbers {
@@ -112,11 +112,11 @@
                 // |  +  |  1  |  2  |  3  |  \  |       | # |     |       |       | RALT |      |     |
                 //                   |  0  |  .  |  SPC  | # |     | HELD  |       |
 
-            bindings = <
-                &kp CARET  &kp N7  &kp N8  &kp N9  &kp ASTRK  &kp BSPC     &trans  &trans     &trans     &trans    &trans    &trans
-                &kp MINUS  &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp DEL      &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-                &kp PLUS   &kp N1  &kp N2  &kp N3  &kp BSLH   &trans       &trans  &trans     &trans     &kp RALT  &trans    &trans
-                                           &kp N0  &kp DOT    &kp SPACE    &trans  &trans     &trans
+                bindings = <
+                    &kp CARET    &kp N7    &kp N8    &kp N9    &kp ASTRK    &kp BSPC         &trans    &trans       &trans       &trans      &trans      &trans
+                    &kp MINUS    &kp N4    &kp N5    &kp N6    &kp EQUAL    &kp DEL          &trans    &kp LSHFT    &kp LCTRL    &kp LALT    &kp LGUI    &trans
+                    &kp PLUS     &kp N1    &kp N2    &kp N3    &kp BSLH     &trans           &trans    &trans       &trans       &kp RALT    &trans      &trans
+                                                     &kp N0    &kp DOT      &kp SPACE        &trans    &trans       &trans
             >;
         };
         symbols {
@@ -126,11 +126,11 @@
                 // |  *  |  _  |  |  |  @  |  <  |  >  | # |      |       |       | RALT |      |     |
                 //                   |  !  |  ?  |  .  | # | HELD |       |       |
 
-            bindings = <
-                &kp LBRC   &kp RBRC   &kp LBKT  &kp RBKT  &kp LPAR   &kp RPAR     &trans  &trans     &trans     &trans    &trans    &trans
-                &kp TILDA  &kp DQT    &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-                &kp ASTRK  &kp UNDER  &kp PIPE  &kp AT    &kp LT     &kp GT       &trans  &trans     &trans     &kp RALT  &trans    &trans
-                                                &kp EXCL  &kp DOT    &kp QMARK    &trans  &trans     &trans
+                bindings = <
+                    &kp LBRC     &kp RBRC     &kp LBKT    &kp RBKT    &kp LPAR     &kp RPAR         &trans    &trans       &trans       &trans      &trans      &trans
+                    &kp TILDA    &kp DQT      &kp HASH    &kp DLLR    &kp PRCNT    &kp CARET        &trans    &kp LSHFT    &kp LCTRL    &kp LALT    &kp LGUI    &trans
+                    &kp ASTRK    &kp UNDER    &kp PIPE    &kp AT      &kp LT       &kp GT           &trans    &trans       &trans       &kp RALT    &trans      &trans
+                                                          &kp EXCL    &kp DOT      &kp QMARK        &trans    &trans       &trans
             >;
         };
         function {
@@ -140,11 +140,11 @@
                 // |     |      |      |      |      |      | # |      |       |       | RALT |      |      |
                 //                     |      |      |      | # |      |       | HELD  |
 
-            bindings = <
-                &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
-                &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &kp RALT  &trans    &trans
-                                        &trans  &trans  &trans    &trans  &trans     &trans
+                bindings = <
+                    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6        &kp F7    &kp F8       &kp F9       &kp F10     &kp F11     &kp F12
+                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &kp LSHFT    &kp LCTRL    &kp LALT    &kp LGUI    &trans
+                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans       &trans       &kp RALT    &trans      &trans
+                                                  &trans    &trans    &trans        &trans    &trans       &trans
             >;
         };
         layers {
@@ -154,11 +154,11 @@
                 // |      |     |     |     |     |     | # |     |     | QWERTY  | GAMING_QWERTY  |     |     |
                 //                    |     |     |     | # |     |     |         |
 
-            bindings = <
-                &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans       &trans             &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &to COLEMAK  &trans             &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &to QWERTY   &to GAMING_QWERTY  &trans  &trans
-                                        &trans  &trans  &trans    &trans  &trans  &trans
+                bindings = <
+                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &trans         &trans               &trans    &trans
+                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &to COLEMAK    &trans               &trans    &trans
+                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &to QWERTY     &to GAMING_QWERTY    &trans    &trans
+                                                  &trans    &trans    &trans        &trans    &trans    &trans
             >;
         };  
 		
