@@ -8,12 +8,12 @@
 #define COLEMAK 1
 #define QWERTY 0
 #define GAMING_QWERTY 2
-#define LAYERS 4
-#define NAV 5
-#define MEDIA 7
-#define NUM 8
-#define SYM 9
-#define FN 10
+#define LAYERS 3
+#define NAV 4
+#define MEDIA 5
+#define NUM 6
+#define SYM 7
+#define FN 8
 
 // Behavior configuration
 &mt {
@@ -45,7 +45,7 @@
                 bindings = <
                     &mo LAYERS  &kp Q       &kp W       &kp E          &kp R        &kp T        &kp Y          &kp U         &kp I        &kp O         &kp P          &trans
                     &trans      &mt LGUI A  &mt LALT S  &mt LCTRL D    &mt LSHFT F  &kp G        &kp H          &mt LSHFT J   &mt LCTRL K  &mt LALT L    &mt LGUI SEMI  &trans
-                    &trans      &kp Z       &mt RALT X  &kp C          &kp V        &kp B        &kp N          &kp M         &kp CMMA     &mt RALT DOT  &kp FSLH       &trans
+                    &trans      &kp Z       &mt RALT X  &kp C          &kp V        &kp B        &kp N          &kp M         &kp COMMA     &mt RALT DOT  &kp FSLH       &trans
                                                         &lt MEDIA ESC  &lt NAV TAB  &kp SPACE    &lt SYM ENTER  &lt NUM BSPC  &lt FN DEL
             >;
         };
@@ -59,7 +59,7 @@
                 bindings = <
                     &mo LAYERS  &kp Q       &kp W       &kp F          &kp P        &kp B        &kp J          &kp L         &kp U        &kp Y         &kp SQT     &trans
                     &trans      &mt LGUI A  &mt LALT R  &mt LCTRL S    &mt LSHFT T  &kp G        &kp M          &mt LSHFT N   &mt LCTRL E  &mt LALT I    &mt LGUI O  &trans
-                    &trans      &kp Z       &mt RALT X  &kp C          &kp D        &kp V        &kp K          &kp H         &kp CMMA     &mt RALT DOT  &kp FSLH    &trans
+                    &trans      &kp Z       &mt RALT X  &kp C          &kp D        &kp V        &kp K          &kp H         &kp COMMA     &mt RALT DOT  &kp FSLH    &trans
                                                         &lt MEDIA ESC  &lt NAV TAB  &kp SPACE    &lt SYM ENTER  &lt NUM BSPC  &lt FN DEL
             >;
         };
@@ -73,7 +73,7 @@
                 bindings = <
                     &mo LAYERS  &kp Q  &kp W  &kp E    &kp R    &kp T        &kp Y      &kp U     &kp I     &kp O    &kp P     &trans
                     &kp LCTRL   &kp A  &kp S  &kp D    &kp F    &kp G        &kp H      &kp J     &kp K     &kp L    &kp SEMI  &trans
-                    &kp LSHIFT  &kp Z  &kp X  &kp C    &kp V    &kp B        &kp N      &kp M     &kp CMMA  &kp DOT  &kp FSLH  &trans
+                    &kp LSHIFT  &kp Z  &kp X  &kp C    &kp V    &kp B        &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &trans
                                               &kp ESC  &kp TAB  &kp SPACE    &kp ENTER  &kp BSPC  &kp DEL
             >;
         };
@@ -99,10 +99,10 @@
                 //                             |  HELD  |        |        | # | STOP | PLAY  | MUTE  |     
 
             bindings = <
-                &bootloader        &out OUT_BLE      &bt BT_SEL 0  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR    &trans      &cp C_BRI_DN  &cp C_BRI_UP  &trans      &trans  &bt BT_SEL 1  
-                &reset             &kp LGUI          &kp LALT      &kp LCTRL   &kp LSHFT   &trans        &cp C_PREV  &cp C_VOL_DN  &cp C_VOL_UP  &cp C_NEXT  &trans  &bt BT_SEL 2  
+                &bootloader        &out OUT_BLE      &bt BT_SEL 0  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR    &trans      &kp C_BRI_DN  &kp C_BRI_UP  &trans      &trans  &bt BT_SEL 1  
+                &sys_reset             &kp LGUI          &kp LALT      &kp LCTRL   &kp LSHFT   &trans        &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans  &bt BT_SEL 2  
                 &ext_power EP_OFF  &ext_power EP_ON  &kp RALT      &trans      &trans      &trans        &trans      &trans        &trans        &trans      &trans  &bt BT_SEL 3  
-                                                                   &trans      &trans      &trans        &cp C_STOP  &cp C_PLAY    &cp C_MUTE
+                                                                   &trans      &trans      &trans        &kp C_STOP  &kp C_PLAY    &kp C_MUTE
             >;
         };
         numbers {
