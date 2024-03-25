@@ -77,7 +77,7 @@
                                                     &kp ESC    &kp TAB    &kp SPACE        &kp ENTER    &kp BSPC    &kp DEL
             >;
         };
-		navigation {
+	navigation {
                 // -------------------------------------------------------------------------------------------
                 // |     |      |      |       |       |     | # | UNDO  | CUT  | COPY | PASTE | REDO  |  `  |
                 // |     | LGUI | LALT | LCTRL | LSHFT |     | # | LEFT  | DOWN | UP   | RIGHT |   {   |  }  |
@@ -87,7 +87,7 @@
                 bindings = <
                     &trans    &trans      &trans      &trans       &trans       &trans        &kp K_UNDO    &kp K_CUT    &kp K_COPY    &kp K_PASTE    &kp K_REDO    &kp GRAVE
                     &trans    &kp LGUI    &kp LALT    &kp LCTRL    &kp LSHFT    &trans        &kp LEFT      &kp DOWN     &kp UP        &kp RIGHT      &kb LBRC      &kp RBRC
-                    &trans    &trans      &kp RALT    &trans       &trans       &trans        &kp INS       &kp PG_DN    &kp PG_UP     &kp HOME       &kp END       &kp TILDA
+                    &trans    &trans      &kp RALT    &trans       &trans       &trans        &kp INS       &kp PG_DN    &kp PG_UP     &kp HOME       &kp END       &kp TILDE
                                                       &trans       &trans       &trans        &kp ENTER     &kp BSPC     &kp DEL
             >;
         };
@@ -128,7 +128,7 @@
 
                 bindings = <
                     &kp LBRC     &kp RBRC     &kp LBKT    &kp RBKT    &kp LPAR     &kp RPAR         &trans    &trans       &trans       &trans      &trans      &trans
-                    &kp TILDA    &kp DQT      &kp HASH    &kp DLLR    &kp PRCNT    &kp CARET        &trans    &kp LSHFT    &kp LCTRL    &kp LALT    &kp LGUI    &trans
+                    &kp TILDE    &kp DQT      &kp HASH    &kp DLLR    &kp PRCNT    &kp CARET        &trans    &kp LSHFT    &kp LCTRL    &kp LALT    &kp LGUI    &trans
                     &kp ASTRK    &kp UNDER    &kp PIPE    &kp AT      &kp LT       &kp GT           &trans    &trans       &trans       &kp RALT    &trans      &trans
                                                           &kp EXCL    &kp DOT      &kp QMARK        &trans    &trans       &trans
             >;
