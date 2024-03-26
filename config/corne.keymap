@@ -45,7 +45,7 @@
                 bindings = <
                     &mo LAYERS    &kp Q         &kp W         &kp E            &kp R          &kp T            &kp Y            &kp U           &kp I          &kp O           &kp P            &kp GRAVE
                     &trans        &mt LGUI A    &mt LALT S    &mt LCTRL D      &mt LSHFT F    &kp G            &kp H            &mt LSHFT J     &mt LCTRL K    &mt LALT L      &mt LGUI SEMI    &kp APOS
-                    &trans        &kp Z         &mt RALT X    &kp C            &kp V          &kp B            &kp N            &kp M           &kp COMMA      &mt RALT DOT    &kp FSLH         &kp BSLH
+                    &trans        &kp Z         &mt RALT X    &kp C            &kp V          &kp B            &kp N            &kp M           &kp COMMA      &mt RALT DOT    &kp FSLH         &kp RBKT
                                                               &lt MEDIA ESC    &lt NAV TAB    &kp SPACE        &lt SYM ENTER    &lt NUM BSPC    &lt FN DEL
             >;
         };
@@ -59,7 +59,7 @@
                 bindings = <
                     &mo LAYERS     &kp Q         &kp W         &kp F            &kp P          &kp B            &kp J            &kp L           &kp U          &kp Y           &kp SQT       &kp GRAVE
                     &trans         &mt LGUI A    &mt LALT R    &mt LCTRL S      &mt LSHFT T    &kp G            &kp M            &mt LSHFT N     &mt LCTRL E    &mt LALT I      &mt LGUI O    &kp APOS
-                    &trans         &kp Z         &mt RALT X    &kp C            &kp D          &kp V            &kp K            &kp H           &kp COMMA      &mt RALT DOT    &kp FSLH      &kp BSLH
+                    &trans         &kp Z         &mt RALT X    &kp C            &kp D          &kp V            &kp K            &kp H           &kp COMMA      &mt RALT DOT    &kp FSLH      &kp RBKT
                                                                &lt MEDIA ESC    &lt NAV TAB    &kp SPACE        &lt SYM ENTER    &lt NUM BSPC    &lt FN DEL
             >;
         };
@@ -85,10 +85,10 @@
                 //                     |       | HELD  |     | # | ENTER | BSPC | DEL  |
 
                 bindings = <
-                    &trans    &trans      &trans      &trans       &trans       &trans        &kp K_UNDO    &kp K_CUT    &kp K_COPY    &kp K_PASTE    &kp K_REDO    &kp GRAVE
-                    &trans    &kp LGUI    &kp LALT    &kp LCTRL    &kp LSHFT    &trans        &kp LEFT      &kp DOWN     &kp UP        &kp RIGHT      &kp LBRC      &kp APOS
-                    &trans    &trans      &kp RALT    &trans       &trans       &trans        &kp INS       &kp PG_DN    &kp PG_UP     &kp HOME       &kp END       &kp BSLH
-                                                      &trans       &trans       &trans        &kp ENTER     &kp BSPC     &kp DEL
+                    &kp C_AC_BACK    &trans      &trans      &trans       &trans       &kp C_MENU       &kp K_UNDO    &kp K_CUT    &kp K_COPY    &kp K_PASTE    &kp K_REDO    &kp GRAVE
+                    &trans           &kp LGUI    &kp LALT    &kp LCTRL    &kp LSHFT    &kp C_AC_HOME    &kp LEFT      &kp DOWN     &kp UP        &kp RIGHT      &kp LBKT      &kp APOS
+                    &trans           &trans      &kp RALT    &trans       &trans       &kp K_BACK       &kp INS       &kp PG_DN    &kp PG_UP     &kp HOME       &kp END       &kp RBKT
+                                                             &trans       &trans       &trans           &kp ENTER     &kp BSPC     &kp DEL
             >;
         };
         media {
