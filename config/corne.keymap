@@ -165,7 +165,7 @@
 		android {
                 bindings = <
                     &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
-                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trnas    &trans
+                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
                     &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
                                                   &trans    &trans    &trans        &trans    &trans    &trans
             >;
