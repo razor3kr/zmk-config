@@ -155,9 +155,9 @@
                 //                    |     |     |     | # |     |     |         |
 
                 bindings = <
-                    &kp HOME     &kp PAGE_DN    &kp UP      &kp PAGE_UP    &kp C_VOL_UP     &kp C_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to QWERTY
-                    &kp END      &kp LEFT       &kp DOWN    &kp RIGHT      &kp K_VOL_UP     &kp K_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to COLEMAK
-                    &kp K_APP    &trans         &trans      &trans         &kp K_VOL_UP2    &kp K_VOL_DN2        &trans    &trans    &trans    &trans    &trans    &to GAMING_QWERTY
+                    &kp HOME     &kp PG_DN    &kp UP      &kp PG_UP    &kp C_VOL_UP     &kp C_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to QWERTY
+                    &kp END      &kp LEFT     &kp DOWN    &kp RIGHT    &kp K_VOL_UP     &kp K_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to COLEMAK
+                    &kp K_APP    &trans       &trans      &trans       &kp K_VOL_UP2    &kp K_VOL_DN2        &trans    &trans    &trans    &trans    &trans    &to GAMING_QWERTY
                                                             &trans         &trans    &trans        &trans    &trans    &trans
             >;
         };  
