@@ -86,7 +86,7 @@
 
                 bindings = <
                     &kp C_AC_BACK    &trans      &trans      &trans       &trans       &kp C_MENU       &kp K_UNDO    &kp K_CUT    &kp K_COPY    &kp K_PASTE    &kp K_REDO    &kp GRAVE
-                    &trans           &kp LGUI    &kp LALT    &kp LCTRL    &kp LSHFT    &kp C_AC_HOME    &kp LEFT      &kp DOWN     &kp UP        &kp RIGHT      &kp LBKT      &kp APOS
+                    &trans           &kp LGUI    &kp LALT    &kp LCTRL    &kp LSHFT    &kp C_AC_HOME    &kp LEFT      &kp DOWN     &kp UP        &kp RIGHT      &kp RBKT      &kp APOS
                     &trans           &trans      &kp RALT    &trans       &trans       &kp K_BACK       &kp INS       &kp PG_DN    &kp PG_UP     &kp HOME       &kp END       &kp RBKT
                                                              &trans       &trans       &trans           &kp ENTER     &kp BSPC     &kp DEL
             >;
@@ -155,10 +155,10 @@
                 //                    |     |     |     | # |     |     |         |
 
                 bindings = <
-                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &trans         &trans               &trans    &trans
-                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &to COLEMAK    &trans               &trans    &trans
-                    &trans    &trans    &trans    &trans    &trans    &trans        &trans    &trans    &to QWERTY     &to GAMING_QWERTY    &trans    &trans
-                                                  &trans    &trans    &trans        &trans    &trans    &trans
+                    &kp HOME     &kp PAGE_DN    &kp UP      &kp PAGE_UP    &kp C_VOL_UP     &kp C_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to QWERTY
+                    &kp END      &kp LEFT       &kp DOWN    &kp RIGHT      &kp K_VOL_UP     &kp K_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to COLEMAK
+                    &kp K_APP    &trans         &trans      &trans         &kp K_VOL_UP2    &kp K_VOL_DN2        &trans    &trans    &trans    &trans    &trans    &to GAMING_QWERTY
+                                                            &trans         &trans    &trans        &trans    &trans    &trans
             >;
         };  
 		
