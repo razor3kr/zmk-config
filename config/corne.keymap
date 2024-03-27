@@ -158,16 +158,16 @@
                 bindings = <
                     &trans       &kp PG_DN    &kp UP      &kp PG_UP    &kp C_VOL_UP     &kp C_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to QWERTY
                     &trans      &kp LEFT     &kp DOWN    &kp RIGHT    &kp K_VOL_UP     &kp K_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to COLEMAK
-                    &kp K_APP    &trans       &trans      &trans       &kp K_VOL_UP2    &kp K_VOL_DN2        &trans    &trans    &trans    &trans    &trans    &to GAMING_QWERTY
+                    &kp K_APP    &trans       &trans      &trans       &trans    &trans        &trans    &trans    &trans    &trans    &trans    &to GAMING_QWERTY
                                                             &trans         &trans    &trans        &trans    &trans    &trans
             >;
         };  
 		android {
                 bindings = <
-                    &trans    &trans    &kp UP      &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
-                    &trans    &kp LEFT    &kp DOWN    &kp RIGHT    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
-                    &trans    &trans    &trans      &trans    &trans    &trans        &trans    &trans    &trans    &trans    &trans    &trans
-                                                    &trans    &trans    &trans        &trans    &trans    &trans
+                    &trans    &trans      &kp UP      &trans         &trans          &trans              &trans    &trans    &trans    &trans    &trans    &trans
+                    &trans    &kp LEFT    &kp DOWN    &kp RIGHT      &kp K_VOL_UP    &kp K_VOL_DN        &trans    &trans    &trans    &trans    &trans    &trans
+                    &trans    &kp HOME    &trans      &trans         &kp END         &kp K_APP           &trans    &trans    &trans    &trans    &trans    &trans
+                                                      &kp K_STOP2    &kp K_PP        &kp K_MUTE          &trans    &trans    &trans
             >;
         };
     };
